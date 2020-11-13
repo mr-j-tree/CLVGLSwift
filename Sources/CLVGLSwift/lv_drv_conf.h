@@ -100,6 +100,8 @@
 /*Eclipse: <SDL2/SDL.h>    Visual Studio: <SDL.h>*/
 //#  define MONITOR_SDL_INCLUDE_PATH    <SDL2/SDL.h>
 #  define MONITOR_SDL_INCLUDE_PATH    "SDL.h"
+#  define MONITOR_LVGL_INCLUDE_PATH "../../lvgl/lvgl.h"
+
 
 /*Open two windows to test multi display support*/
 #  define MONITOR_DUAL            0
