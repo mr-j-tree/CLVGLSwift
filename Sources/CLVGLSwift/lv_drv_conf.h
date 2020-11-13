@@ -335,7 +335,7 @@
 #endif
 
 #if USE_MOUSE
-/*No settings*/
+#  define MOUSE_LVGL_INCLUDE_PATH "../../lvgl/lvgl.h"
 #endif
 
 /*-------------------------------------------
