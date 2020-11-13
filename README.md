@@ -1,6 +1,6 @@
 # CLVGLSwift
 
-A Swift package exposing the [https://github.com/lvgl/lvgl](LVGL) GUI library, via a git submodule. Also included is the [https://github.com/lvgl/lv_drivers](lv_drivers) library. 
+A Swift package exposing the [LVGL](https://github.com/lvgl/lvgl) GUI library, via a git submodule. Also included is the [lv_drivers](https://github.com/lvgl/lv_drivers) library. 
 
 lv_conf.h is just a copy of lvgl/lv_conf_template.h to enable the module to build without errors.
 lv_drv_conf.h is just a copy of lv_drivers/lv_drv_conf_template.h to enable the module to build without errors.
