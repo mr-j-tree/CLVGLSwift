@@ -1,0 +1,5 @@
+module CLVGL {
+    header "shim.h"
+    link "CLVGLSwift"
+    export *
+}

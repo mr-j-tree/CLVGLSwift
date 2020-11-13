@@ -1,0 +1,3 @@
+[submodule "Sources/CLVGLSwift/lvgl"]
+	path = Sources/CLVGLSwift/lvgl
+	url = https://github.com/lvgl/lvgl.git
