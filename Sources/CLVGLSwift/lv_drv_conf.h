@@ -393,7 +393,7 @@
 #endif
 
 #if USE_KEYBOARD
-/*No settings*/
+#  define KEYBOARD_LVGL_INCLUDE_PATH "../../lvgl/lvgl.h"
 #endif
 
 #endif  /*LV_DRV_CONF_H*/
