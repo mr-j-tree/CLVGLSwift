@@ -83,7 +83,7 @@
  *  Monitor of PC
  *-------------------*/
 #ifndef USE_MONITOR
-#  define USE_MONITOR         0
+#  define USE_MONITOR         1
 #endif
 
 #if USE_MONITOR
@@ -98,7 +98,8 @@
 #  define MONITOR_DOUBLE_BUFFERED 0
 
 /*Eclipse: <SDL2/SDL.h>    Visual Studio: <SDL.h>*/
-#  define MONITOR_SDL_INCLUDE_PATH    <SDL2/SDL.h>
+//#  define MONITOR_SDL_INCLUDE_PATH    <SDL2/SDL.h>
+#  define MONITOR_SDL_INCLUDE_PATH    "SDL.h"
 
 /*Open two windows to test multi display support*/
 #  define MONITOR_DUAL            0
@@ -386,7 +387,7 @@
  *   Keyboard of a PC (using SDL)
  *------------------------------*/
 #ifndef USE_KEYBOARD
-#  define USE_KEYBOARD        0
+#  define USE_KEYBOARD        1
 #endif
 
 #if USE_KEYBOARD
