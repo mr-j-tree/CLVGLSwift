@@ -10,11 +10,12 @@ let package = Package(
             targets: ["CLVGLSwift"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/PureSwift/SDL.git", .branch("master"))
     ],
     targets: [
         .target(
             name: "CLVGLSwift",
-            dependencies: []),
+            dependencies: ["SDL"]),
         .testTarget(
             name: "CLVGLSwiftTests",
             dependencies: ["CLVGLSwift"]),
