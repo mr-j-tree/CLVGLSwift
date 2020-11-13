@@ -1,6 +1,0 @@
-[submodule "Sources/CLVGLSwift/lvgl"]
-	path = Sources/CLVGLSwift/lvgl
-	url = https://github.com/lvgl/lvgl.git
-[submodule "Sources/CLVGLSwift/lv_drivers"]
-	path = Sources/CLVGLSwift/lv_drivers
-	url = https://github.com/mr-j-tree/lv_drivers.git
