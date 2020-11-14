@@ -1,12 +1,9 @@
 # CLVGLSwift
 
-A Swift package exposing the [LVGL](https://github.com/lvgl/lvgl) GUI library, via a git submodule. Also included is the [lv_drivers](https://github.com/lvgl/lv_drivers) library. 
+A Swift package exposing the [LVGL](https://github.com/lvgl/lvgl) C/C++ GUI library, via a git submodule. Be sure to clone with --recursive.
 
-lv_conf.h is just a copy of lvgl/lv_conf_template.h to enable the module to build without errors.
-lv_drv_conf.h is just a copy of lv_drivers/lv_drv_conf_template.h to enable the module to build without errors.
+You can replace or modify either/both of lv_conf.h and lv_drv_conf.h as needed.
 
-You can replace or modify either of these configuration files as needed.
+To expose or exlude any or all parts of either library to Swift, edit include/CLVGLSwift.h accordingly. By default lvgl.h and monitor.h are included, which provides a quick start for many development scenarios with SDL.
 
-To expose or exlude any or all parts of either library to Swift, edit include/CLVGLSwift.h accordingly. By default lvgl.h and monitor.h are included, which provides a quick start for many development scenarios. 
-
-In future, I plan to make an easier-to-use Swift wrapper package that wraps this wrapper in more Swifty-style functions. 
+In future, I might work on a more swifty wrapper package that wraps this wrapper with some more easily usable functions. 
